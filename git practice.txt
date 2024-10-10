@@ -1,0 +1,33 @@
+git practice:
+==============
+git is a distributed and centralized version control system.
+ 
+what is version control:
+=======================
+updating the source code and saving the older source code.
+
+local repository & remote repository:
+=====================================
+remote repository is available to all(GitHub, bitbucket, GitLab there are servers). 
+local repo is not available to all(git is a local repo we can download the git and connect to the server which means we create an account in any remote server). 
+so we have two storages in in remote repository and local repository.
+
+git status :
+============
+git status is a command that shows the current state of the working directory and the staging area.
+
+Working Directory:
+==================
+This is where you make changes to files. These changes are not tracked by Git until you stage or commit them.
+
+Staging area(or)Index:
+======================
+If we want to commit some file or file to tack care by git. The file should be at staging area means at local repository.
+
+After making changes in the working directory, you can move them to the staging area using the git add command.
+
+Git Repository (.git directory):
+================================
+This is the actual Git database where commits (snapshots of your project) are stored. Once changes are staged, you can commit them to the repository.
+
+
